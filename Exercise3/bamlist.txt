@@ -1,3 +1,0 @@
-HG00097.chrom20.SOLID.bfast.GBR.low_coverage.20101123.bam
-HG00099.chrom20.SOLID.bfast.GBR.low_coverage.20101123.bam
-HG00101.chrom20.SOLID.bfast.GBR.low_coverage.20101123.bam
