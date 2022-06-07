@@ -1,0 +1,11 @@
+#Step1: Request resources for an interactive job
+srun --partition=reservation --reservation=bootcamp_cpu_2022 --nodes 1 --cpus-per-task 1 --mem=1G --time=00:10:00 --pty /bin/bash
+#After the training session, the above reservation will not be valid, hence please use:
+srun --partition=express --nodes 1 --cpus-per-task 1 --mem=1G --time=00:10:00 --pty /bin/bash
+
+#Step2: Load the required modules to run FASTQC
+module load oracle_java/jdk1.8.0_181
+module load fastqc
+
+#Step3: Run FASTQC
+fastqc wgEncode1_Sub.fq 
