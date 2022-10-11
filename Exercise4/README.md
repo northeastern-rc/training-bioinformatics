@@ -2,7 +2,7 @@
 
 This exercise is adapted from https://github.com/seqeralabs/nextflow-tutorial for Northeastern University's Research Computing training session.
 
-In order to use the pre-built environment that has the required software installed,do:
+In order to use the pre-built environment on Discovery that has the required software installed,do:
 
 ```
 srun --nodes=1 --cpus-per-task=2 --time=2:00:00 --mem=10G --pty /bin/bash

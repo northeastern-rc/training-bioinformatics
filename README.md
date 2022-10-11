@@ -1,4 +1,4 @@
-# GPUs on Discovery
+# Bioinformatics on Discovery
 This repository contains material for Bioinformatics on Discovery
 training module. 
 
