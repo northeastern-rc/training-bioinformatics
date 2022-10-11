@@ -17,6 +17,7 @@ If you would like to try building this environment on your own, you can use the 
 conda env create --name rnaseq-nf-demo --file /path/to/nextflow-tutorial/env.yml
 ```
 
+Note that you will need to update the `env.yml` file if you are using it from the seqeralabs git repo to add nextflow as well as updated version numbers for the other tools. Alternately, you can use the updated `env.yml` in the current exercise 4 folder to create the environment.
 
 Once you have the environment loaded to your current session (using `conda activate`), you can navigate to the directory containing the `*.nf` scripts and start executing them as:
 
